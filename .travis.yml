@@ -17,8 +17,8 @@ install:
     - source activate pyenv
     - pip install pydot
     - pip install theano
-#    - echo "[gcc] " > ~/.theanorc
-#    - echo "cxxflags = -march=x86-64" >> ~/.theanorc
+    - echo "[gcc] " > ~/.theanorc
+    - echo "cxxflags = -march=x86-64" >> ~/.theanorc
 
 script:
     - python -c 'import theano'
